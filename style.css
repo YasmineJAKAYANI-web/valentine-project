@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    background: #ffe6f0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.step { display: none; }
+.step.active { display: block; }
+.final-message { display: none; }
+.final-message.active { display: block; }
+
+.container { text-align: center; padding: 30px; }
+
+h1 { font-size: 2em; color: #ff4d79; margin: 20px 0; }
+
+.bear-img, .near-img { width: 220px; margin: 15px auto; display: block; }
+
+.buttons { margin: 20px 0; }
+
+.btn { padding: 12px 25px; margin: 8px; border: none; border-radius: 25px; font-size: 1em; cursor: pointer; }
+.btn-yes { background: #ff4d79; color: white; }
+.btn-no { background: #ddd; color: #333; position: relative; }
