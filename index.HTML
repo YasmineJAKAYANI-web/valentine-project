@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be my valentine?</title>
+    <script src ="https://cdnjs.cloudfare.com/ajax/libs/canvaas - confetti/1.6.0/confetti.browser.min.js"></script>
+    <link rel ="stylesheet" href="css/style.css">
+    <link rel ="icon" href="images/teddy-bear.png" type="images/png">
+
+</head>
+<body>
+    <div class="hearts"></div>
+    <div class="container">
+        <div class="step active" id="step1">
+             <img src="images/step2.gif" alt="Cute bear" class="bear-img">
+             <h1>Would you be my Valentine? 💝</h1>
+             <div class="buttons">
+                  <button class="btn btn-yes" onclick="goToStep2()">Yes</button>
+                  <button class="btn btn-no" onmouseover="moveButton(this)" onclick="moveButton(this)">No</button>
+             </div>
+       </div>
+
+
+       <div class="step" id="step2">
+        <img src="images/dudu-twisting-dance.gif" alt="cute bear with hearts" class="bear-img">
+        <h1>Are you sure you wanna be my valentine? 👀</h1>
+        <div class="buttons">
+            <button class="btn btn-yes" onclick="goToStep3()">Yes, 100%sure</button>
+            <button class="btn btn-no" onmouseover="moveButton(this)" onclick=""moveButton(this)>Let me think ...</button>
+        </div>
+       </div>
+
+       <div class="step" id="step3">
+        <img src="images/step22.gif" alt="Cute bear in love" class="near-img">
+        <h1>Promise me you'll always be my valentine </h1>
+        <div class="buttons">
+            <button class="btn btn-yes" onclick="finalStep()">Yes, I promise</button>
+        </div>
+       </div>
+
+       <div class="final-message">
+         <img src="images/stafford-matt-unscreen.gif" alt="cute bear in love" class="bear-img">
+         <p>Yeaaaaaaay, you made my valentine so special for me; <br>
+            asln from the moment I saw you, I knew I wanted to smell your farts forever. <br>
+            Here's to a lifetime of love, laughter and questionnable air quality.<br>
+            Thank you for filling my days with joy and making my heart go faster.<br>
+            There is no one in the world I'd rather be with other than you.<br>
+            I love you so much ❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️</p>
+            <p style="margin-top: 15px;">You can text me by clicking the button below, I'm waiting for you !!!</p>
+       </div>
+
+       <a href="https://wa.me/+212665433743?text=Hey%20dear,%20its%20me,%20your%20valentine%20❤️" class="whatsapp">
+          Text me here!💌
+       </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
